@@ -33,7 +33,6 @@ The final design produces a stable output that can visually indicate whether pul
 ## System Architecture
 
 <div align="center">
-  <img src="readme_assets/design_diagram_photo.png" alt="Initial circuit design diagram" width="92%" />
 </div>
 
 ```mermaid
@@ -69,14 +68,6 @@ An RC averaging network converts pulse frequency into a DC-like voltage. Faster 
 
 ### 6. Comparator-based indication
 Comparator thresholds determine whether the measured pulse activity is normal or abnormal. In the demonstrated prototype, the **yellow LED** represents normal operation, while the **red LED** signals abnormally high pulse activity.
-
----
-
-## Project Gallery
-
-| Final Prototype | Example Signal Capture |
-| --- | --- |
-| ![Final breadboard prototype](readme_assets/final_prototype_photo.png) | ![Waveform showing low-pass filter output and first-stage amplifier output](readme_assets/waveform_filtered_vs_amp_clean.png) |
 
 ---
 
