@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="readme_assets/banner.svg" alt="Optical Heart Rate Monitor banner" width="100%" />
 
   <h1>Optical Heart Rate Monitor</h1>
   <p><strong>An analog heart-rate monitoring prototype that senses pulse-driven changes in light transmission through a fingertip and converts them into a clean, thresholded output with visual indication.</strong></p>
